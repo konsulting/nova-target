@@ -4,7 +4,7 @@ Target elements to hide or adjust classes in Laravel Nova resources
 NovaTarget is a Laravel Nova 4 field, that is hidden and utilised to target and alter HTML DOM elements.
 It has been kept intentionally simple. 
 
-For quite a while we looked for a way to hide the 'Create and Add Another' and 'Upadte and Continue Editing' buttons for some resources.
+For quite a while we looked for a way to hide the 'Create and Add Another' and 'Update and Continue Editing' buttons for some resources.
 The only solution seen was to add some global CSS to always hide the buttons based on the Dusk selector.
 
 This package essentially builds on that but utilises a field on the Resource page(s) so the CSS is targeted (as it only appears when the field is used).
