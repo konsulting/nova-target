@@ -1,2 +1,2 @@
 # nova-target
-Target Elements to hide or adjust Classes in Laravel Nova resources
+Target elements to hide or adjust classes in Laravel Nova resources
