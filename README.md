@@ -11,6 +11,12 @@ This package essentially builds on that but utilises a field on the Resource pag
 
 Following simple hiding, we have added the ability to alter, or replace classes on elements too, such as re-colouring a button.
 
+To install, simply:
+
+```
+    composer require konsulting/nova-target:^1.0
+```
+
 To use, simply add the field to the form and called one of the following methods.
 
 ```php
