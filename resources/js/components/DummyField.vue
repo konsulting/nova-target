@@ -2,8 +2,11 @@
 
 <script>
 import {nextTick} from "vue";
+import {FormField} from 'laravel-nova'
 
 export default {
+    mixins: [FormField],
+
     props: ['resourceName', 'field'],
 
     beforeMount() {

@@ -12,6 +12,8 @@ class NovaTarget extends Field
      * @var string
      */
     public $component = 'konsulting-nova-target';
+    public $visible = false;
+    public $nullable = true;
 
     public function adjustElementClass($cssSelector, $removeClass, $addClass)
     {
